@@ -191,7 +191,6 @@ def build_models():
 
     return text_encoder, image_encoder, labels, start_epoch
 
-
 if __name__ == "__main__":
     args = parse_args()
     if args.cfg_file is not None:
